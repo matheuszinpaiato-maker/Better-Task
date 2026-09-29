@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "nome": "Davi",
+        "email": "davi@portalsesisp.org.br.com",
+        "senha": "123456"
+    },
+    {
+        "id": 2,
+        "nome": "Maycon",
+        "email": "maycon@portalsesisp.org.br.com",
+        "senha": "234567"
+    },
+    {
+        "id": 3,
+        "nome": "Nicolas",
+        "email": "nicolas@portalsesisp.org.br.com",
+        "senha": "345678"
+    }
+]
