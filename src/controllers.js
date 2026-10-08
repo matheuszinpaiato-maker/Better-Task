@@ -2,7 +2,7 @@ const contas = require("../contas.json")
 
 const login = (req, res) => {
     const { email, senha } = req.body;
-    if (email == email && senha == senha) {
+    if (email == contas.email && senha == contas.senha) {
         return res.status(200).json({
             mensagem: "Login realizado com sucesso!",
             acesso: true

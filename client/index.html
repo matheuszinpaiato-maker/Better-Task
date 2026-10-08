@@ -1,22 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>Better Task</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-     <center><header><h1>LOGIN - ALUNO</h1></header>
-    <br>
-    <main>
-       <section>
-            <form action="http://localhost:3000/contas" method="post">
-                <input type="text" name="item" placeholder="Nome" required>
-                <input type="text" name="email" placeholder="Email" required>
-                <input type="password" name="senha" placeholder="Senha" required>
-                <input type="submit" value="Enviar">
-            </form>
-        </section></center>
+
+    <main class="container">
+        <div class="logo">
+            <h1>BETTER</h1>
+            <h1>TASK</h1>
+        </div>
+        <div class="buttonsPROFESSOR">
+        <a href="login-professor.html">
+            <button class="btn professor">
+                Entrar como Professor
+            </button>
+        </a>
+        <a href="login-aluno.html">
+            <button class="btn aluno">
+                Entrar como Aluno
+            </button>
+        </a>
+        </div>
+    </main>
+
 </body>
 </html>
