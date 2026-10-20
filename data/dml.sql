@@ -9,7 +9,7 @@ INSERT INTO professor ( nome, email, senha, id_nota, postar_nota, id_tarefa, pos
 ('Professor Rafael', 'rafael@gmail.com', 'prof123', 1, 'Sim', 1, 'Sim'),
 ('Professora Eliana', 'eliana@gmail.com', 'prof456', 2, 'Sim', 2, 'Sim');
 
-INSERT INTO tarefa ( id, titulo, descricao, data_criacao, data_entrega, status) VALUES
+INSERT INTO tarefa ( titulo, descricao, data_criacao, data_entrega, status) VALUES
 ('Lista de Matemática', 'Exercícios de Análise Combinatória', '2026-10-01', '2026-10-10', 'concluida'),
 ('Quiz de História', 'Falar sobre a Revolução Industrial', '2026-10-02', '2026-10-11', 'pendente'),
 ('Trabalho de Ciências', 'Pesquisa sobre ecossistemas', '2026-10-03', '2026-10-12', 'pendente'),

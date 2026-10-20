@@ -1,12 +1,17 @@
-const contas = require("../contas.json")
+const contas = require("../contas.json");
 
 const login = (req, res) => {
     const { email, senha } = req.body;
-    if (email == contas.email && senha == contas.senha) {
-        return res.status(200).json({
+    const contaEncontrada = contas.find((conta) => {
+        return conta.email === email && conta.senha === senha;
+    });
+    if (contaEncontrada) {
+        console.log({
             mensagem: "Login realizado com sucesso!",
-            acesso: true
+            acesso: true,
+            nome: contaEncontrada.nome,
         });
+        return res.redirect("http://127.0.0.1:5500/client/inicioALUNO.html");
     }
     return res.status(401).json({
         mensagem: "Email ou senha incorretos",
@@ -16,4 +21,4 @@ const login = (req, res) => {
 
 module.exports = {
     login
-}
+};
