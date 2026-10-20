@@ -6,11 +6,11 @@ INSERT INTO aluno ( nome, email, senha, id_nota, id_tarefa) VALUES
 ('Giuseppe Vieira', 'giuseppe@gmail.com', 'sesi05', 5, 5);
 
 INSERT INTO professor ( nome, email, senha, id_nota, postar_nota, id_tarefa, postar_tarefa) VALUES
-('Professor Rafael', 'roberto@email.com', 'prof123', 1, 'Sim', 1, 'Sim'),
-('Professora Eliana', 'ana.prof@email.com', 'prof456', 2, 'Sim', 2, 'Sim');
+('Professor Rafael', 'rafael@gmail.com', 'prof123', 1, 'Sim', 1, 'Sim'),
+('Professora Eliana', 'eliana@gmail.com', 'prof456', 2, 'Sim', 2, 'Sim');
 
 INSERT INTO tarefa ( id, titulo, descricao, data_criacao, data_entrega, status) VALUES
-('Lista de Matemática', 'Exercícios de Álgebra', '2026-10-01', '2026-10-10', 'concluida'),
+('Lista de Matemática', 'Exercícios de Análise Combinatória', '2026-10-01', '2026-10-10', 'concluida'),
 ('Quiz de História', 'Falar sobre a Revolução Industrial', '2026-10-02', '2026-10-11', 'pendente'),
 ('Trabalho de Ciências', 'Pesquisa sobre ecossistemas', '2026-10-03', '2026-10-12', 'pendente'),
 ('Folinha de Física', 'Leis de Newton', '2026-10-04', '2026-10-13', 'concluida'),

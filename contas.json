@@ -16,5 +16,17 @@
         "nome": "Nicolas",
         "email": "nicolas@portalsesisp.org.br.com",
         "senha": "345678"
+    },
+    {
+        "id": 4,
+        "nome": "Matheus",
+        "email": "matheus@portalsesisp.org.br.com",
+        "senha": "456789"
+    },
+    {
+        "id": 5,
+        "nome": "Giusseppe",
+        "email": "giuse@portalsesisp.org.br.com",
+        "senha": "567891"
     }
 ]
