@@ -2,14 +2,14 @@ drop database if exists better_task;
 create database better_task;
 use better_task;
 
-    CREATE TABLE tarefa (
-        id INT PRIMARY KEY AUTO_INCREMENT,
-        titulo VARCHAR (100),
-        descricao TEXT,
-        data_criacao DATETIME,
-        data_entrega DATETIME,
-        status ENUM ('pendente','concluida')
-    ); 
+CREATE TABLE tarefa (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    titulo VARCHAR (100),
+    descricao TEXT,
+    data_criacao DATETIME,
+    data_entrega DATETIME,
+    status ENUM ('pendente','concluida')
+); 
 CREATE TABLE aluno (
     id INT PRIMARY KEY AUTO_INCREMENT,
     nome VARCHAR (100),
@@ -37,8 +37,10 @@ INSERT INTO aluno ( nome, email, senha, id_nota, id_tarefa) VALUES
 ('Giuseppe Vieira', 'giuseppe@gmail.com', 'sesi05', 5, 5);
 
 INSERT INTO professor ( nome, email, senha, id_nota, postar_nota, id_tarefa, postar_tarefa) VALUES
-('Professor Rafael', 'rafael@gmail.com', 'prof123', 1, 'Sim', 1, 'Sim'),
-('Professora Eliana', 'eliana@gmail.com', 'prof456', 2, 'Sim', 2, 'Sim');
+('Rafael', 'rafael@gmail.com', 'prof123', 1, 'Sim', 1, 'Sim'),
+('Eliana', 'eliana@gmail.com', 'prof456', 2, 'Sim', 2, 'Sim'),
+('Rosangela', 'rosangela@gmail.com', 'prof567', 3, 'Sim', 3, 'Sim'),
+('Robson', 'robson@gmail.com', 'prof157', 4, 'Sim', 4, 'Sim');
 
 INSERT INTO tarefa ( titulo, descricao, data_criacao, data_entrega, status) VALUES
 ('Lista de Matemática', 'Exercícios de Análise Combinatória', '2026-10-01', '2026-10-10', 'concluida'),
